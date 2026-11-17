@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace YOUR-USERNAME with your GitHub username in every URL below -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-USERNAME.github.io/the-daily-finds/</loc></url>
+  <url><loc>https://YOUR-USERNAME.github.io/the-daily-finds/about.html</loc></url>
+  <url><loc>https://YOUR-USERNAME.github.io/the-daily-finds/contact.html</loc></url>
+  <url><loc>https://YOUR-USERNAME.github.io/the-daily-finds/privacy-policy.html</loc></url>
+  <url><loc>https://YOUR-USERNAME.github.io/the-daily-finds/affiliate-disclosure.html</loc></url>
+</urlset>

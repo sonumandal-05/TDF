@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us | The Daily Finds</title>
+  <meta name="description" content="Learn what The Daily Finds is, how we choose products and how affiliate links work.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Us | The Daily Finds">
+  <meta property="og:description" content="Learn what The Daily Finds is, how we choose products and how affiliate links work.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="logo" aria-label="The Daily Finds home">The Daily Finds</a>
+    <nav id="navLinks" class="nav-links" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="index.html?cat=Fashion#products">Fashion</a>
+      <a href="index.html?cat=Tech#products">Tech</a>
+      <a href="index.html?cat=Home%20Decor#products">Home Decor</a>
+      <a href="index.html?cat=Beauty#products">Beauty</a>
+      <a href="index.html?cat=Lifestyle#products">Lifestyle</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="searchToggle" class="icon-btn" aria-label="Search products" aria-expanded="false" aria-controls="searchPanel">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </button>
+      <button id="navToggle" class="icon-btn nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="searchPanel" class="search-panel" hidden>
+    <div class="container">
+      <label for="searchInput" class="visually-hidden">Search products</label>
+      <input id="searchInput" type="search" placeholder="Search, then press Enter" autocomplete="off">
+    </div>
+  </div>
+</header>
+<main id="content">
+<div class="container page">
+
+<h1>About The Daily Finds</h1>
+<p>The Daily Finds is a product discovery platform built to help people discover useful, interesting and thoughtfully selected products across fashion, technology, home decor and everyday lifestyle. Our goal is to make discovering your next favourite find simple and enjoyable.</p>
+<h2>What we do</h2>
+<p>We collect products we think are worth a look and group them by category, so you can browse, search and sort in one place. Each product links to the shop that sells it. We do not sell anything ourselves.</p>
+<h2>How we make money</h2>
+<p>Many product links are affiliate links. If you buy through one, we may earn a commission. Read the full <a href="affiliate-disclosure.html">Affiliate Disclosure</a>.</p>
+<h2>Get in touch</h2>
+<p>Have a suggestion or a correction? Visit the <a href="contact.html">contact page</a>.</p>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="logo">The Daily Finds</a>
+      <p class="footer-text">Discover Better. Live Smarter.</p>
+      <p class="footer-text">Thoughtfully selected products across fashion, tech, home and everyday life.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Categories</h3>
+      <ul id="footerCategories"></ul>
+    </div>
+    <div>
+      <h3>Legal</h3>
+      <ul>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>As an Amazon Associate I earn from qualifying purchases.</p>
+    <p>&copy; 2026 The Daily Finds. All Rights Reserved.</p>
+  </div>
+</footer>
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
